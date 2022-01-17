@@ -5,8 +5,8 @@ WIP: notifications cli
 ## USE
 
 ```sh
-$ npm i -g notify-hub
-$ notify-hub
+$ npm i -g noti-hub
+$ hub-notify
 
 # another terminal
 $ redis-server --port 6942
