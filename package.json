@@ -1,0 +1,24 @@
+{
+  "name": "noti-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "notify": "pub.js",
+    "hub-notify": "sub.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "redis": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
